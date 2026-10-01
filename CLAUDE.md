@@ -27,6 +27,7 @@ Title: a short phrase naming the day's main thread, not "Daily briefing".
 - Never invent papers, results, events, dates or links. Only include things actually found and opened.
 - Plain markdown only. No HTML, no images, no emojis.
 - Be frugal: no subagents, about 15–25 searches/fetches total.
+- Research with the WebSearch and WebFetch tools, not curl/wget/Python requests from the shell (the shell's network is restricted). If a site is still unreachable, say in one line which ones at the top of the post.
 
 ## Don't touch
 
