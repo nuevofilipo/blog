@@ -1,4 +1,15 @@
 [
   {"date": "2026-10-02", "slug": "2026-10-02", "title": "Kit-less Isaac Lab and staged curricula", "type": "daily"},
-  {"date": "2026-10-01", "slug": "2026-10-01", "title": "Hello", "type": "note"}
+  {"date": "2026-10-01", "slug": "2026-10-01", "title": "Teaching legs to walk", "type": "daily"},
+  {"date": "2026-09-30", "slug": "2026-09-30", "title": "Rhoda AI and video-predictive control", "type": "daily"},
+  {"date": "2026-09-29", "slug": "2026-09-29", "title": "From programming robots to training them", "type": "daily"},
+  {"date": "2026-09-28", "slug": "2026-09-28", "title": "ETH open-sources its robot learning course", "type": "daily"},
+  {"date": "2026-09-27", "slug": "2026-09-27", "title": "The physical AI funding surge", "type": "daily"},
+  {"date": "2026-09-26", "slug": "2026-09-26", "title": "Zurich AI Festival week", "type": "daily"},
+  {"date": "2026-09-25", "slug": "2026-09-25", "title": "Gravis Robotics becomes a unicorn", "type": "daily"},
+  {"date": "2026-09-24", "slug": "2026-09-24", "title": "Gemini escapes its sandbox", "type": "daily"},
+  {"date": "2026-09-23", "slug": "2026-09-23", "title": "GPT-6 Sol, open robot arms, EF deadline", "type": "daily"},
+  {"date": "2026-09-22", "slug": "2026-09-22", "title": "Grok 4.7 and YC's deep-tech batch", "type": "daily"},
+  {"date": "2026-09-20", "slug": "2026-09-20", "title": "Swiss AI Weeks and a femtosecond light chip", "type": "daily"},
+  {"date": "2026-09-18", "slug": "2026-09-18", "title": "A Chrome zero-day and an AI Navier-Stokes claim", "type": "daily"}
 ]
