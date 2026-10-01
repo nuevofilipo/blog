@@ -1,5 +1,5 @@
 // Network-first for everything: new posts show immediately, cache is the offline fallback.
-const CACHE = 'blog-v1';
+const CACHE = 'blog-v2';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'lib/marked.min.js', 'posts.json', 'manifest.json', 'icons/icon-192.png'];
 
 self.addEventListener('install', e => {

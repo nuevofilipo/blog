@@ -29,4 +29,19 @@ async function showPost(slug) {
 const slug = new URLSearchParams(location.search).get('p');
 (slug ? showPost(slug) : showList()).catch(e => { main.textContent = 'error: ' + e.message; });
 
+const btn = document.getElementById('theme');
+const isDark = () => (document.documentElement.dataset.theme ||
+  (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark';
+function syncTheme() {
+  btn.textContent = isDark() ? 'light' : 'dark';
+  document.querySelector('meta[name="theme-color"]').content = isDark() ? '#1b1b1a' : '#e8e7e3';
+}
+btn.onclick = () => {
+  const t = isDark() ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t;
+  try { localStorage.setItem('theme', t); } catch (e) {}
+  syncTheme();
+};
+syncTheme();
+
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
