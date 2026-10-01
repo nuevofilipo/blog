@@ -1,6 +1,6 @@
 // Network-first for everything: new posts show immediately, cache is the offline fallback.
-const CACHE = 'blog-v2';
-const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'lib/marked.min.js', 'posts.json', 'manifest.json', 'icons/icon-192.png'];
+const CACHE = 'blog-v3';
+const SHELL = ['./', 'index.html', 'style.css?v=3', 'app.js?v=3', 'lib/marked.min.js', 'posts.json', 'manifest.json', 'icons/icon-192.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
@@ -16,7 +16,7 @@ self.addEventListener('fetch', e => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
   e.respondWith(
-    fetch(req).then(res => {
+    fetch(req, { cache: 'no-cache' }).then(res => {
       if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(req, copy)); }
       return res;
     }).catch(() => caches.match(req, { ignoreSearch: req.mode === 'navigate' }))
