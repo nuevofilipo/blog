@@ -9,16 +9,24 @@ Static daily blog. No build step. Hosted on GitHub Pages from `main` / root.
 3. If a post for today already exists, do nothing.
 4. Commit `post: YYYY-MM-DD` and push to `main`.
 
-## Post content
+## Post structure (daily briefing)
 
-- A short essay/note (300–600 words), then `## Papers` with 2–3 recent papers: title as a link to arXiv/abs, 1 line of authors/venue, 3–5 sentences on what they did, why it matters, and one caveat.
-- Before picking papers, grep `posts/` for the arXiv IDs so nothing is covered twice.
-- Plain markdown only. No HTML, no images, no emojis. Never invent papers, results or links; every paper must have been actually fetched.
-- Topics: see "Topics" below.
+Title: a short phrase naming the day's main thread, not "Daily briefing".
 
-## Topics
+1. `## Robot learning` — the core, about half the post. 2–3 new papers/models/releases (locomotion RL, sim-to-real, humanoids, whole-body control, VLAs, manipulation, imitation learning, sim/tooling like Isaac Lab, MuJoCo, Genesis). Per item: linked title, one line authors/lab, 3–5 sentences on what they did, why it matters, one caveat.
+2. `## Learn` — one short explainer (200–400 words) teaching a concept useful for getting a humanoid to walk and then do tasks (e.g. reward shaping for gaits, domain randomization, PD gains and action spaces, teacher-student distillation). Build on earlier explainers, don't repeat them.
+3. `## Opportunities` — hackathons, hacker houses, accelerators, fellowships, and Zurich/ETH events worth attending. Always give date/deadline and link. Skip the section if nothing real turned up; never pad.
+4. `## Seeds` — 2–3 interesting startups or GitHub repos (robotics/ML first, founding-relevant), one or two lines each on what they build and the idea worth stealing.
+5. `## Outside the bubble` — one thing outside these interests that still matters, to widen the view.
+6. `## Sources` — any further-reading links not already inline.
 
-(to be filled in)
+## Rules
+
+- Recency: items should be from roughly the last 7 days; opportunities can be further out if the deadline is upcoming.
+- No repeats: before picking items, grep `posts/` for the URLs / arXiv IDs and skip anything already covered.
+- Never invent papers, results, events, dates or links. Only include things actually found and opened.
+- Plain markdown only. No HTML, no images, no emojis.
+- Be frugal: no subagents, about 15–25 searches/fetches total.
 
 ## Don't touch
 
