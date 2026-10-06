@@ -1,4 +1,5 @@
 [
+  {"date": "2026-10-06", "slug": "2026-10-06", "title": "Make the simulated motor match the real one", "type": "daily"},
   {"date": "2026-10-05", "slug": "2026-10-05", "title": "Getting the walking policy off the GPU and onto the robot", "type": "daily"},
   {"date": "2026-10-04", "slug": "2026-10-04", "title": "PPO, off-policy RL and the knobs that matter", "type": "daily"},
   {"date": "2026-10-03", "slug": "2026-10-03", "title": "What the walking policy should see", "type": "daily"},
