@@ -1,4 +1,5 @@
 [
+  {"date": "2026-10-10", "slug": "2026-10-10", "title": "Is the robot in simulation the robot on the floor?", "type": "daily"},
   {"date": "2026-10-09", "slug": "2026-10-09", "title": "What to train on, and in what order", "type": "daily"},
   {"date": "2026-10-08", "slug": "2026-10-08", "title": "When the robot falls: learning to get up", "type": "daily"},
   {"date": "2026-10-07", "slug": "2026-10-07", "title": "Left is right: symmetry and style for a first gait", "type": "daily"},
