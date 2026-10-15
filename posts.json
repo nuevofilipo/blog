@@ -1,4 +1,5 @@
 [
+  {"date": "2026-10-15", "slug": "2026-10-15", "title": "Reading the tea leaves: what PPO's training curves are telling you", "type": "daily"},
   {"date": "2026-10-14", "slug": "2026-10-14", "title": "After the first steps: motion tracking as the road to tasks", "type": "daily"},
   {"date": "2026-10-13", "slug": "2026-10-13", "title": "What the robot thinks it knows: state estimation for a walking policy", "type": "daily"},
   {"date": "2026-10-12", "slug": "2026-10-12", "title": "The first day the policy touches metal", "type": "daily"},
