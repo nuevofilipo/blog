@@ -1,4 +1,5 @@
 [
+  {"date": "2026-11-05", "slug": "2026-11-05", "title": "Tell the robot how hard to push", "type": "daily"},
   {"date": "2026-11-04", "slug": "2026-11-04", "title": "Put the box in the simulator", "type": "daily"},
   {"date": "2026-11-03", "slug": "2026-11-03", "title": "Ask your controller the same question twice", "type": "daily"},
   {"date": "2026-11-02", "slug": "2026-11-02", "title": "Backprop through the floor", "type": "daily"},
